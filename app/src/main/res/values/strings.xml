@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Newyork Times News</string>
+    <string name="loading_content">Loading...</string>
+
+    <string name="filter_apply">Apply Filter</string>
+    <string name="filter_clear">Clear</string>
+
+    <string name="filter_element_sports">Sports</string>
+    <string name="filter_element_education">Education</string>
+    <string name="filter_element_international">International</string>
+    <string name="filter_element_finance">Finance</string>
+</resources>

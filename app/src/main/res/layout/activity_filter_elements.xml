@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorLight"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/filter_rel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/elements"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/filter1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/round_corner"
+                android:padding="12dp"
+                android:text="@string/filter_element_sports"
+                android:textColor="@drawable/text_selector"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/filter2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/filter1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/round_corner"
+                android:padding="12dp"
+                android:text="@string/filter_element_education"
+                android:textColor="@drawable/text_selector"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/filter3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/filter2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/round_corner"
+                android:padding="12dp"
+                android:text="@string/filter_element_finance"
+                android:textColor="@drawable/text_selector"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/filter4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/filter3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/round_corner"
+                android:padding="12dp"
+                android:text="@string/filter_element_international"
+                android:textColor="@drawable/text_selector"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearActions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/elements"
+            android:layout_gravity="bottom"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/filterClear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/normal_border"
+                android:text="@string/filter_clear"
+                android:textColor="@drawable/text_selector"></Button>
+
+            <Button
+                android:id="@+id/filterDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/normal_border"
+                android:text="@string/filter_apply"
+                android:textColor="@drawable/text_selector"></Button>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
